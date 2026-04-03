@@ -48,10 +48,12 @@ main {
 }
 
 .hero {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: white;
-    border-radius: 8px;
+  padding: 15px;                 /* space inside the box */
+  border: 2px solid #333;        /* darker gray border */
+  border-radius: 5px;           /* rounded corners */
+  max-width: 1110px;              /* keeps it from stretching too wide */
+  margin: 10px auto;             /* centers the box on the page */
+  background-color: #f9f9f9;     /* light background */
 }
 
 .section {
@@ -144,4 +146,22 @@ footer {
     max-height: 500px;      /* large enough to fit items */
     opacity: 1;
     transform: translateY(0);
+}
+
+.left-image {
+  float: left;
+  margin-right: 10px; /* space between image and text */
+}
+.right-image {
+  float: right;
+  margin-left: 10px; /* space between image and text */
+}
+.top-image {
+  margin-top: 80px;
+  
+}
+.hero::after {
+  content: "";
+  display: block;
+  clear: both;
 }
