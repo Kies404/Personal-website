@@ -165,3 +165,32 @@ footer {
   display: block;
   clear: both;
 }
+.photo-border {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+/* Sticky Header */
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(50, 92, 228);
+  color: white;
+  padding: 15px;
+  z-index: 1000; /* keeps it above everything */
+}
+.move-down {
+  margin-top: 20px; /* Adjust this value to move the text down */
+}
+video {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.box {
+  border: 2px solid #333;
+  padding: 15px;
+  border-radius: 10px;     /* rounded corners */
+  background-color: #f9f9f9;
+        /* keeps it from stretching too wide */
+}
